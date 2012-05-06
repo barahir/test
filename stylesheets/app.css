@@ -1,0 +1,92 @@
+/* TITULOS - SUBTITULO - FONDO - BORDES */
+
+body { background: url('../images/fondo-IEC.1.jpg') no-repeat 0px 0px;}/*bg_ulagos_home_3.jpg*/
+
+/* OTROS CSS */
+
+
+#piwi {
+    
+   background-color:#c4c4c4;
+   color: #000;
+   padding-left:20px;
+   padding-top:20px;
+   
+   
+    
+}
+
+#piwi.h5{
+    
+    text-decoration: blink;
+}
+
+.imga {
+    
+    padding-right:20px;
+}
+
+/* FIN OTROS */
+
+
+ul#menu li:hover li:hover li a,
+ul#menu li.iehover li.iehover li a {
+  background: #003300;
+  color: #003300;
+}
+
+/* 3rd Menu Hover Persistence */
+
+ul#menu li:hover li:hover li a:hover,
+ul#menu li:hover li:hover li:hover a,
+ul#menu li.iehover li.iehover li a:hover,
+ul#menu li.iehover li.iehover li.iehover a {
+background:#ddd;
+  color: #FFF;
+}
+
+/* 4th Menu */
+ul#menu li:hover li:hover li:hover li a,
+ul#menu li.iehover li.iehover li.iehover li a {
+background:#ddd;
+  color: #666;
+}
+
+/* 4th Menu Hover */
+ul#menu li:hover li:hover li:hover li a:hover,
+ul#menu li.iehover li.iehover li.iehover li a:hover {
+  background: #CCC;
+  color: #FFF;
+}
+
+ul#menu ul ul,
+ul#menu ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#menu li:hover ul ul,
+ul#menu li:hover ul ul ul,
+ul#menu li.iehover ul ul,
+ul#menu li.iehover ul ul ul {
+  display: none;
+}
+
+ul#menu li:hover ul,
+ul#menu ul li:hover ul,
+ul#menu ul ul li:hover ul,
+ul#menu li.iehover ul,
+ul#menu ul li.iehover ul,
+ul#menu ul ul li.iehover ul {
+  display: block;
+}
+ul#menu .selected{
+	color: #003300;
+}
+
+#main-ppal{
+	background:#1E7D29;
+}
